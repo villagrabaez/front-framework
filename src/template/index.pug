@@ -1,0 +1,16 @@
+extend includes/layout
+
+block title
+  title Mi primer sitio web con Pug desde cero
+  - var activePage = "/home";
+
+block header
+  include includes/header.pug
+
+block content
+  h1 Hola mundo
+  p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, laborum animi, saepe cupiditate voluptatem magni fugiat maxime distinctio explicabo inventore quis ad tenetur atque eum dolorum aliquam expedita hic quidem.
+  h3 Lorem ipsum dolor sit amet.
+  p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum nemo asperiores autem, porro dicta, ipsam saepe consequatur pariatur ex earum obcaecati suscipit commodi illo quibusdam quas sequi soluta voluptates accusantium.
+block footer
+  include includes/footer.pug
